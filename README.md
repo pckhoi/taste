@@ -2,6 +2,12 @@
 
 Command-line application to read random rows from a Parquet file or a CSV file in a performant way. This tool only reads local files for now.
 
+## Installation
+
+```bash
+sudo bash -c 'curl -L https://github.com/pckhoi/taste/releases/latest/download/install.sh | bash'
+```
+
 ## Usage
 
 ```bash
