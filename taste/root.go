@@ -98,6 +98,8 @@ func rootCmd() *cobra.Command {
 	cmd.Flags().BoolP("pretty", "p", false, "pretty-print JSON")
 	cmd.Flags().StringP("delimiter", "d", "", "CSV delimiter")
 	cmd.Flags().IntP("num-rows", "n", 1, "number of rows to return")
+	cmd.SetOut(os.Stdout)
+	cmd.SetErr(os.Stderr)
 	return cmd
 }
 
